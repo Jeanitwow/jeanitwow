@@ -1,0 +1,41 @@
+{
+  "siteMetadata": {
+    "language": "ru",
+    "siteUrl": "https://jeanitwow.github.io/",
+    "title": "JeaniT",
+    "titleTemplate": "%s · JeaniT",
+    "description": "World of Warcraft coaching from JeaniT.",
+    "author": "JeaniT",
+    "avatar": "../content/images/whitelogo.svg",
+    "bio": "Все права защищены",
+    "social": {
+      "discord": "https://discord.com/invite/WN6Q7y6j9S",
+      "youtube": "https://www.youtube.com/@JeaniT?sub_confirmation=1",
+      "twitch": "https://www.twitch.tv/jeanitwow"
+    }
+  },
+  "siteConfiguration": {
+    "logo": {
+      "text": "JeaniT",
+      "image": "../content/images/whitelogo.svg"
+    },
+    "navigation": {
+      "header": [
+        { "label": "Обо мне", "url": "/#about" },
+        { "label": "Обучение", "url": "/#coaching" },
+        { "label": "Цена", "url": "/#price" }
+      ],
+      "ctaButton": {
+        "openNewTab": true,
+        "label": "Связаться со мной",
+        "url": "https://t.me/jeanitwow"
+      },
+      "footer": []
+    },
+    "featureToggles": {
+      "useDarkModeAsDefault": true,
+      "useDarkModeBasedOnUsersPreference": false,
+      "useCookieBar": false
+    }
+  }
+}

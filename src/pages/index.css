@@ -1,0 +1,6 @@
+@media (max-width: 1000px) {
+    #coaching > * > [class^="style-module--Projects"] {
+      flex-direction: column!important;
+      align-items: center!important;
+    }
+  }

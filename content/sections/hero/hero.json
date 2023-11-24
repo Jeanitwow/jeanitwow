@@ -1,0 +1,22 @@
+{
+  "intro": "Привет",
+  "heroPhoto": {
+    "src": "../../images/lego-dummy.png",
+    "alt": "My Photo"
+  },
+  "image": {
+    "src": "../../images/waving-hand.png",
+    "alt": "Waving Hand Emoji"
+  },
+  "title": "меня зовут Джеанит",
+  "subtitle": {
+    "prefix": "Я научу тебя нагибать в ",
+    "highlight": "PvP",
+    "suffix": ""
+  },
+  "description": "Подпишись чтобы не пропустить стримы и новые видео",
+  "socialProfiles": {
+    "from": ["Discord", "YouTube", "Twitch"],
+    "showIcons": false
+  }
+}
