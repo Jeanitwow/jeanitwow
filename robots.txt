@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://jeanitwow.github.io/sitemap-index.xml
+Host: https://jeanitwow.github.io
