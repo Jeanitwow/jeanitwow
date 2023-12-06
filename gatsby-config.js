@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     {
-      resolve: 'gatsby-theme-portfolio-minimal',
+      resolve: 'theme',
       options: {
         siteUrl: 'https://jeanitwow.github.io/', // Used for sitemap generation
         manifestSettings: {

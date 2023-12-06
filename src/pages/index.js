@@ -6,8 +6,8 @@ import {
   Page,
   ProjectsSection,
   Seo,
-} from "gatsby-theme-portfolio-minimal";
-import Price from "../components/price"
+} from "theme";
+import Price from "../components/Price"
 import "./index.css";
 
 export default function IndexPage() {

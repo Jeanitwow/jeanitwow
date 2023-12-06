@@ -1,6 +1,6 @@
 import React from "react";
-import "./price.css";
-import { Animation, Section } from "gatsby-theme-portfolio-minimal";
+import "./index.css";
+import { Animation, Section } from "theme";
 
 export default function Price() {
   return (
@@ -40,7 +40,7 @@ export default function Price() {
                 <li>
                   <strong>Консультация по игре в любое время</strong>
                 </li>
-             
+
               </ul>
             </div>
             <div className="package">
@@ -51,15 +51,15 @@ export default function Price() {
               <ul>
                 <li>
                   <strong>Разборы игр в дискорде</strong>
-                  
+
                 </li>
                 <li>
                   <strong>Игра на арене со мной</strong>
-                  
+
                 </li>
                 <li>
                   <strong>Обучение с почасовой оплатой</strong>
-                 
+
                 </li>
               </ul>
             </div>
@@ -70,7 +70,7 @@ export default function Price() {
         <li>Криптовалюта(BTC, USDT)</li>
         <li>Золото World of Warcraft</li>
        </ul>
-       
+
       </Section>
     </Animation>
   );

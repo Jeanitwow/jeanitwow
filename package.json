@@ -13,9 +13,9 @@
   },
   "dependencies": {
     "gatsby": "^5.0.1",
-    "gatsby-theme-portfolio-minimal": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "theme": "file:theme"
   },
   "author": "Konstantin Münster <mail@konstantin.digital>",
   "license": "0BSD",
