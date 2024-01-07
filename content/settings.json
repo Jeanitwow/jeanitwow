@@ -23,7 +23,8 @@
       "header": [
         { "label": "Обо мне", "url": "/#about" },
         { "label": "Обучение", "url": "/#coaching" },
-        { "label": "Цена", "url": "/#price" }
+        { "label": "Цена", "url": "/#price" },
+        { "label": "Статьи", "url": "/blog" }
       ],
       "ctaButton": {
         "openNewTab": true,
