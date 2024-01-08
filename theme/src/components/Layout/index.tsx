@@ -44,7 +44,9 @@ export function Layout(props: LayoutProps): React.ReactElement {
                 bodyAttributes={{
                     'data-theme': darkModeEnabled ? Theme.Dark : Theme.Light,
                 }}
-            />
+            >
+               <script type="text/javascript" src="https://vk.com/js/api/share.js?93"></script>
+            </Helmet>
             <div className={classes.Layout}>
                 <Header />
                 <main>{props.children}</main>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { Link, Script } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { Page } from '../../components/Page';
 import { Seo } from '../../components/Seo';
@@ -57,6 +57,8 @@ export default function ArticleTemplate(props: ArticleTemplateProps): React.Reac
                             )}
                         </section>
                     )}
+                       <Script strategy="idle">{'document.getElementById("share-vk").innerHTML =  VK.Share.button(false, {type: "button", text: "ПОДЕЛИТЬСЯ"})'}</Script>
+                    <div id='share-vk'></div>
                     <section className={classes.Body}>
                         <div className={classes.Content} dangerouslySetInnerHTML={{ __html: article.body }} />
                         {article.keywords &&
@@ -72,6 +74,7 @@ export default function ArticleTemplate(props: ArticleTemplateProps): React.Reac
                         <AuthorSnippet />
                     </section>
                 </article>
+
             </Page>
         </>
     );
