@@ -45,7 +45,9 @@ export function Layout(props: LayoutProps): React.ReactElement {
                     'data-theme': darkModeEnabled ? Theme.Dark : Theme.Light,
                 }}
             >
-               <script type="text/javascript" src="https://vk.com/js/api/share.js?93"></script>
+                <script type="text/javascript" src="https://vk.com/js/api/share.js?93"></script>
+                <script>{'const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};'}</script>
+                <script src="https://wow.zamimg.com/js/tooltips.js"></script>
             </Helmet>
             <div className={classes.Layout}>
                 <Header />
