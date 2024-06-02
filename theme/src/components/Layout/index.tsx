@@ -17,7 +17,11 @@ interface LayoutProps {
     useSplashScreenAnimation: boolean;
     useCookieBar: boolean;
 }
-
+declare global {
+    interface Window {
+      $WowheadPower: any;
+    }
+  }
 export function Layout(props: LayoutProps): React.ReactElement {
     const location = useLocation();
     const { globalState } = useGlobalState();
@@ -29,6 +33,7 @@ export function Layout(props: LayoutProps): React.ReactElement {
     useLayoutEffect(() => {
         const referrer = location.state && (location.state as { referrer: string | null }).referrer !== null;
         setIsInternalNavigation(!!referrer);
+        window.$WowheadPower?.refreshLinks();
     }, []);
 
     const splashScreenView = (
@@ -44,10 +49,11 @@ export function Layout(props: LayoutProps): React.ReactElement {
                 bodyAttributes={{
                     'data-theme': darkModeEnabled ? Theme.Dark : Theme.Light,
                 }}
-            >
+            >   
                 <script type="text/javascript" src="https://vk.com/js/api/share.js?93"></script>
                 <script>{'const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};'}</script>
-                <script src="https://wow.zamimg.com/js/tooltips.js"></script>
+                <script src="https://wow.zamimg.com/widgets/power.js" defer={true}></script>
+                
             </Helmet>
             <div className={classes.Layout}>
                 <Header />
