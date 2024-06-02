@@ -1,7 +1,7 @@
 ---
 title: "Как одевать ШД рогу на старте сезона Cataclysm Classic"
 description: "Про бисовый гир и пре бисовый гир, понятно и без воды"
-date: "2024-05-24"
+date: "2023-12-19"
 banner:
   src: "../../images/rogueUndeadAnime.png"
   alt: "Как одевать ШД рогу на старте сезона Cataclysm Classic"
