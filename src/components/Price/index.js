@@ -10,7 +10,7 @@ export default function Price() {
           <div className="wrapper">
             <div className="package">
               <div className="name">Gladiator</div>
-              <div className="price">5000₽</div>
+              <div className="price">65$</div>
               <a href="https://t.me/jeanitwow" className="trial">Связаться со мной</a>
               <hr />
               <ul>
@@ -27,7 +27,7 @@ export default function Price() {
             </div>
             <div className="package brilliant">
               <div className="name">PRO</div>
-              <div className="price">40000₽</div>
+              <div className="price">500$</div>
               <a href="https://t.me/jeanitwow" className="trial">Связаться со мной</a>
               <hr />
               <ul>
@@ -45,7 +45,7 @@ export default function Price() {
             </div>
             <div className="package">
               <div className="name">Teammate</div>
-              <div className="price">1500₽/час</div>
+              <div className="price">18$/час</div>
               <a href="https://t.me/jeanitwow" className="trial">Связаться со мной</a>
               <hr />
               <ul>
@@ -66,7 +66,7 @@ export default function Price() {
           </div>
         </div>
        <ul> <strong>Способы оплаты</strong>
-        <li>Банковская карта РФ</li>
+        <li>Рублями на банковская карту РФ по курсу</li>
         <li>Криптовалюта(BTC, USDT)</li>
         <li>Золото World of Warcraft</li>
        </ul>
